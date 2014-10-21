@@ -1,0 +1,36 @@
+﻿Build started 2014/5/23 8:08:46.
+     1>Project "E:\painter1.0\painter1.0\painter1.0.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\painter1.0.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\painter1.0.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt painter1.0View.cpp
+         painter1.0View.cpp
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\painter1.0\Release\painter1.0.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\painter1.0.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\painter1.0\Release\painter1.0.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\painter1.0\Release\painter1.0.lib" /MACHINE:X86 Release\painter1.0.res
+         Release\DrawCircle.obj
+         Release\DrawLine.obj
+         Release\DrawSpecial.obj
+         Release\DrawRect.obj
+         Release\DrawShape.obj
+         Release\MainFrm.obj
+         Release\painter1.0.obj
+         Release\painter1.0Doc.obj
+         Release\painter1.0View.obj
+         Release\SharedPara.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         painter1.0.vcxproj -> E:\painter1.0\Release\painter1.0.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\painter1.0\Release\painter1.0.exe;#1" /manifest Release\painter1.0.exe.intermediate.manifest "E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\painter1.0.unsuccessfulbuild".
+         Touching "Release\painter1.0.lastbuildstate".
+     1>Done Building Project "E:\painter1.0\painter1.0\painter1.0.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.45
